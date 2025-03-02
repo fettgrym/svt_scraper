@@ -617,7 +617,7 @@ def generate_trend_data():
             
         logger.info("Generated trends data for visualization")
 
-def schedule_jobs():def schedule_jobs():
+def schedule_jobs():
     """Schedule regular jobs"""
     scraping_interval = CONFIG.get("scraping_interval_hours", 12)
     logger.info(f"Scheduling scraping job every {scraping_interval} hours")
